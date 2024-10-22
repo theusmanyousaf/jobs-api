@@ -1,3 +1,9 @@
+<h1 align="center">Jobs API</h1>
+
+#### About
+<p>How to use this project:</p>
+<p>we register as a new user and later we can login as existing user, here we can manage(create,read,update,delete) multiple jobs.only the user that is logged in has access to the job operations.the user wont be able to manipulate other user's jobs as all users are protected with auth middleware that uses userId+JWT token that is provided once the user is logged in or registers.</p>
+
 #### Setup
 
 ```bash

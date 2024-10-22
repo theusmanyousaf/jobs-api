@@ -32,7 +32,7 @@ const updatedJob = async (req, res) => {
         req.body,
         { new: true, runValidators: true }
     )
-    if (!updatedJob ) {
+    if (!updatedJob) {
         throw new NotFoundError(`No job with id ${jobId}`)
     }
     res.status(StatusCodes.OK).json({ job: updatedJob })
